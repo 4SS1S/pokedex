@@ -1,0 +1,22 @@
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  list-style: none;
+  transition: .2s;
+  align-content: center;
+  align-items: center;
+  display: flexbox;
+  flex-flow: row;
+}
+
+.loading {
+  position: absolute;
+  font-size: 45px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
